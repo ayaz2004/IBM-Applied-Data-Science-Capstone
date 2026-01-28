@@ -1,10 +1,10 @@
 # IBM Applied Data Science Capstone - SpaceX Analysis
 
-## 📋 Project Overview
+## Project Overview
 
 This capstone project analyzes SpaceX launch data to predict the success of Falcon 9 first stage landings. The ability to reuse the first stage makes SpaceX launches more cost-effective compared to other providers. By predicting landing success, we can estimate launch costs and provide competitive insights for companies bidding against SpaceX.
 
-## 🎯 Objectives
+## Objectives
 
 - Collect SpaceX launch data using APIs and web scraping
 - Wrangle and prepare data for analysis
@@ -13,7 +13,7 @@ This capstone project analyzes SpaceX launch data to predict the success of Falc
 - Build machine learning models to predict landing success
 - Create an interactive dashboard for data exploration
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── jupyter-labs-spacex-data-collection-api.ipynb      # Data collection via SpaceX API
@@ -28,7 +28,7 @@ This capstone project analyzes SpaceX launch data to predict the success of Falc
 └── README.md                                           # Project documentation
 ```
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Python**: Core programming language
 - **Pandas & NumPy**: Data manipulation and analysis
@@ -40,7 +40,7 @@ This capstone project analyzes SpaceX launch data to predict the success of Falc
 - **BeautifulSoup**: Web scraping
 - **Jupyter Notebook**: Development environment
 
-## 📊 Methodology
+## Methodology
 
 ### 1. Data Collection
 - **API Collection**: Retrieved launch data from SpaceX API
@@ -73,40 +73,8 @@ This capstone project analyzes SpaceX launch data to predict the success of Falc
 - Interactive filters for launch sites and payload ranges
 - Real-time visualization updates
 
-## 🚀 Key Findings
 
-*Add your key findings and insights from the analysis here*
-
-## 📈 Results
-
-*Add your model performance metrics and conclusions here*
-
-## 🔧 Installation & Setup
-
-### Prerequisites
-```bash
-Python 3.7+
-pip
-```
-
-### Install Dependencies
-```bash
-pip install pandas numpy matplotlib seaborn plotly dash folium scikit-learn beautifulsoup4 requests sqlalchemy
-```
-
-### Run Jupyter Notebooks
-```bash
-jupyter notebook
-```
-
-### Run Dashboard Application
-```bash
-python spacex_dash_app.py
-```
-
-Then navigate to `http://127.0.0.1:8050` in your web browser.
-
-## 💡 Usage
+## Usage
 
 1. Start with the data collection notebooks to understand data sources
 2. Follow the data wrangling notebook to see data preparation steps
@@ -115,19 +83,15 @@ Then navigate to `http://127.0.0.1:8050` in your web browser.
 5. Examine the machine learning notebook for predictive modeling
 6. Launch the Dash app for interactive exploration
 
-## 🤝 Contributing
+## Contributing
 
 This is a capstone project for the IBM Applied Data Science Professional Certificate. Feedback and suggestions are welcome!
 
-## 📝 License
+## License
 
 This project is part of the IBM Data Science Professional Certificate program.
 
-## 👤 Author
-
-*Add your name and contact information here*
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - IBM Skills Network for the project structure and guidance
 - SpaceX for making their data publicly available
